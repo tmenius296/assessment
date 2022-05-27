@@ -10,6 +10,8 @@
 */
 
 //CODE HERE
+let gitDefinition =
+  "git is a tool used for code and version management, allowing users to create milestones along the development process that can be referred or reverted to in the future if need be.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+let gitHubDefinition =
+  "github is a public community where users share their code to allow for collaboration and collaborative version control with other users.";
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,6 +38,10 @@
 */
 
 //CODE HERE
+const init = {
+  description: "Initializes a git repository at the current location",
+  code: "git init",
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,7 +50,11 @@
 */
 
 //CODE HERE
-
+const clone = {
+  description:
+    "clone is used to point to an existing git repository and make a copy of it in a new directory",
+  code: "git clone *desired URL*",
+};
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +62,11 @@
 */
 
 //CODE HERE
-
+const status = {
+  description:
+    "concisely displays details of the current directory including detailed changelog and file tracking",
+  code: "git status",
+};
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +74,10 @@
 */
 
 //CODE HERE
-
+const add = {
+  description: "adds a specified item to a git repository",
+  code: "git add *desired file*",
+};
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +85,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+  description:
+    "creates a snapshot of the current project and its changes, titled by the user's desired message",
+  code:"git commit -m"},
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +97,7 @@
 */
 
 //CODE HERE
+const push = {description:"used to upload a local git repository to a remote repository elsewhere", code:"git push *desired URL*"}
+
+
+
